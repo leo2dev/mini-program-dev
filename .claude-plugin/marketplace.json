@@ -1,0 +1,12 @@
+{
+  "name": "mini-program-dev-plugin",
+  "displayName": "uni-app 小程序开发插件",
+  "description": "整合 MCP 服务器和 Skills，提供开箱即用的 uni-app 小程序开发体验",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "mini-program-dev-plugin",
+      "source": "./plugins/mini-program-dev-plugin"
+    }
+  ]
+}

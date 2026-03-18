@@ -1,0 +1,36 @@
+{
+  "uni-app": {
+    "projectType": "default",
+    "enableMultiCompile": true,
+    "cacheDir": ".uni-app-cache"
+  },
+  "skills": {
+    "uni-app-init": {
+      "template": "default",
+      "autoInstall": true
+    },
+    "page-generator": {
+      "autoRegister": true,
+      "stylePreprocessor": "scss"
+    },
+    "component-builder": {
+      "componentType": "business",
+      "autoExport": true
+    },
+    "api-integration": {
+      "baseURL": "",
+      "timeout": 30000,
+      "retry": 3
+    },
+    "build-deploy": {
+      "defaultPlatform": "h5",
+      "enableAnalyze": false
+    }
+  },
+  "hooks": {
+    "pre-build-check": {
+      "enabled": true,
+      "checkTypes": ["pages", "components", "api"]
+    }
+  }
+}

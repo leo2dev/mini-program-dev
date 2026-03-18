@@ -1,0 +1,54 @@
+{
+  "name": "mini-program-dev-plugin",
+  "version": "1.0.0",
+  "displayName": "uni-app 小程序开发插件",
+  "description": "整合 MCP 服务器和 Skills，提供开箱即用的 uni-app 小程序开发体验",
+  "author": {
+    "name": "Development Team"
+  },
+  "homepage": "https://github.com/your-org/mini-program-dev-plugin",
+  "skills": [
+    {
+      "name": "uni-app-init",
+      "path": "skills/uni-app-init"
+    },
+    {
+      "name": "page-generator",
+      "path": "skills/page-generator"
+    },
+    {
+      "name": "component-builder",
+      "path": "skills/component-builder"
+    },
+    {
+      "name": "api-integration",
+      "path": "skills/api-integration"
+    },
+    {
+      "name": "build-deploy",
+      "path": "skills/build-deploy"
+    },
+    {
+      "name": "figma-to-code",
+      "path": "skills/figma-to-code"
+    }
+  ],
+  "agents": [
+    {
+      "name": "uni-app-assistant",
+      "path": "agents/uni-app-assistant"
+    }
+  ],
+  "hooks": [
+    {
+      "name": "pre-build-check",
+      "path": "hooks/pre-build-check"
+    }
+  ],
+  "keywords": [
+    "uni-app",
+    "wechat-mini-program",
+    "miniprogram",
+    "applets"
+  ]
+}

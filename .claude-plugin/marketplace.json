@@ -12,7 +12,22 @@
   "plugins": [
     {
       "name": "mini-program-dev-plugin",
-      "source": "./plugins/mini-program-dev-plugin"
+      "source": "./plugins/mini-program-dev-plugin",
+      "description": "uni-app 小程序开发插件，整合常用开发工具和工作流",
+      "skills": [
+        "./plugins/mini-program-dev-plugin/skills/uni-app-init",
+        "./plugins/mini-program-dev-plugin/skills/page-generator",
+        "./plugins/mini-program-dev-plugin/skills/component-builder",
+        "./plugins/mini-program-dev-plugin/skills/api-integration",
+        "./plugins/mini-program-dev-plugin/skills/build-deploy",
+        "./plugins/mini-program-dev-plugin/skills/figma-to-code"
+      ],
+      "agents": [
+        "./plugins/mini-program-dev-plugin/agents/uni-app-assistant"
+      ],
+      "hooks": [
+        "./plugins/mini-program-dev-plugin/hooks/pre-build-check"
+      ]
     }
   ]
 }
